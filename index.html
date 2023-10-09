@@ -157,7 +157,7 @@
 									<div class="posts">
 										 <article>
 											<a class="image"><img src="images/logo_miccai22.png" alt=""/></a>
-											<h3>Endoscope Vision Challenge at MICCAI 2022 : Surgical Tool Localization in Endoscopic Videos</h3>
+											<h3>Endoscope Vision Challenge at MICCAI 2022: Surgical Tool Localization in Endoscopic Videos</h3>
 											<p>Completed and published a paper on the endoscope vision challenge of the MICCAI conference, especially in the surgical tool classification and localization area.
 										 	Randomly selected the compelling video and cut the training video data of the da Vinci surgical robot by frame, removed invalid data, and trained the baseline model.
 										 	Analyzed a simple transformer to do multi-label classification and then achieved weakly supervised object detection by extracting the attention maps from multi-head attention to localize the surgical tool.</p>
@@ -175,29 +175,36 @@
 											<p>Using a contrastive loss, the STEGO unsupervised segmentation system learns by reducing picture correspondences into a set of class labels. Focus on learning a segmentation 
 										 that takes into account the induced correspondences between items. To do this, a shallow segmentation network should be trained on top of the DINO ViT backbone using three contrastive
 										 terms that extract connections between an image and itself, comparable images, and random other images, respectively. 
-										 I reproduced the stego framework and study the optimization of its convolutional layers to optimize the algorithm based on this and create a new framework to improve the accuracy.</p>
+										 I reproduced the Stego framework and studied the optimization of its convolutional layers to optimize the algorithm based on this and create a new framework to improve the accuracy.</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/cmr-surgical-versius-clinical.webp" alt=""/></a>
 											<h3>Reinforcement Learning for Camera Manipulation during Robotic Surgery</h3>
 											<p>The application will not so much be for automation, as a scoring function for how well the surgeon has performed the
-											camera manipulation. For every state, we would use the RL policy to determine what the score of the next camera state
-											would be. And then we could sum up the scores of the actual path taken by the surgeon over the course of the operation
+											camera manipulation. For every state, we would use the RL policy to determine the score of the next camera state
+											would be. Then we could sum up the scores of the actual path taken by the surgeon over the course of the operation
 											and see what they get.</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/rsz_wx20220610-143941.png" alt="" /></a>
 											<h3>Multimodal Brain Tumor Segmentation</h3>
-											<p>I am working on this project which is to compare the performance between traditional itk-snap manual brain tumor segmentation with the state of art
-											modified 3D Unet method.Manual medical image segmentation is a labor-intensive and time-consuming task with large inter-observer variability.The improved U-Net architecture has faster training speed and more accurate image segmentation than the baseline U-Net
+											<p>I am working on this project which is to compare the performance between traditional ITK-snap manual brain tumor segmentation with the state-of-the-art
+											modified 3D Unet method. Manual medical image segmentation is a labor-intensive and time-consuming task with large inter-observer variability. The improved U-Net architecture has faster training speed and more accurate image segmentation than the baseline U-Net
 											architecture and other existing efficient segmentation models.</p>
+										</article>
+										<article>
+											<a class="image"><img src="images/rsz_wx20220610-143941.png" alt="" /></a>
+											<h3> Simultaneous 3D Modeling and Skeleton Detection System for Plant Structures</h3>
+											<p>Spearheaded the development and implementation of the simultaneous 3D modeling and skeleton detection system. Integrated the Mip-NeRF 360 algorithm, known for its high-quality 3D reconstruction capabilities, with the PYSKL algorithm, specialized in accurate skeleton detection, 
+											to create a cohesive and efficient solution for plant analysis.Addressed the scarcity of related research and datasets by curating a comprehensive dataset. Collected 500 high-resolution images of a tree using a Unity camera at a resolution of 512 x 512 pixels, with a sampling 
+											interval of 0.5 degrees. Generated ground truth 3D models and skeletons of the tree in Unity, providing valuable resources for comparison and validation. Refined the developed algorithms to enhance accuracy and efficiency.</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/rsz_11654988400897.jpg" alt="" /></a>
 											<h3>Noncontact Anthropometry from IoT Camera in Smart City</h3>
 											<p>The purpose of this article is to determine the dimensions of the human body from two-dimensional images taken from two
 											distinct perspectives, using data from the IoT camera dataset. The BlazePose algorithm is used to extract 33 body part
-											features from two views. The characteristics of the upper body are integrated with those of the height and body weight.
+											features from two views. The characteristics of the upper body are integrated with those of height and body weight.
 											After performing ensemble learning with the CatBoost algorithm, a regression prediction model is constructed. </p>
 										</article>
 										<article>
@@ -206,8 +213,8 @@
 											<p>We should implement code to integrate sensors and motors including parsing sensor data to control LunaBot remotely.
 											Implemented the code in the ROS Melodic environment to integrate sensors and motors including parsing sensor data to autonomous
 											control Lunabot remotely. Used the RaspberryPI, the microcontroller, to parse data from the sensors,
-											Lidar Lite and PixyCam, to construct roadmap and using shortest path algorithms in autopilot system. 
-											Use SLAM algorithm to scan the map in the real-time.</p>
+											Lidar Lite and PixyCam, to construct a roadmap and use shortest path algorithms in the autopilot system. 
+											Use the SLAM algorithm to scan the map in real-time.</p>
 										</article>
 									</div>
 								</section>
